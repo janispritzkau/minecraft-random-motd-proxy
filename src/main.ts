@@ -3,7 +3,7 @@ import fs = require("fs/promises")
 
 const SERVER_PORT = +process.env.SERVER_PORT! || 25565
 const HOST = process.env.HOST ?? "localhost"
-const PORT = process.env.PORT ?? 25566
+const PORT = +process.env.PORT! ?? 25566
 
 let motds: any[] = []
 let motdsLastUpdated = 0
