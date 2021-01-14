@@ -1,0 +1,2 @@
+{"text":"motd 1"}
+{"text":"motd 2"}
